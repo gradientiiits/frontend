@@ -173,7 +173,7 @@
 {
 	z-index:1;
 	width:100%;
-	height:117vh;
+	min-height:110px;
 	overflow:hidden;
 	background:url('../img/bg/bg-sponsor.jpg') no-repeat center;
 	background-size:cover;
@@ -281,7 +281,7 @@
     transform: translateX(-50%) translateY(-50%);
     width: 100%;
     padding: 0 30%;
-    font-size: 2.4rem;
+    font-size: 1rem;
   }
   .cd-section:nth-of-type(even) .cd-half-block:first-of-type, .cd-section:nth-of-type(odd) .cd-half-block:nth-of-type(2) {
     left: 0;
@@ -447,7 +447,7 @@
 	color:#fff;
 	line-height:2.2;
 	left:2%;
-	font-size:1.22vw;
+	font-size:1rem;
 	font-family: 'Righteous', cursive;
 	
 }	
@@ -2021,4 +2021,53 @@ main.scale-down {
 
 													
 													/**************** Scrollbar END ********************/
-							
+													
+													
+													/******* Sponsor  CSS START  *******************/
+	
+
+	
+.card {
+	
+	background-color: transparent!important;
+	box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+	margin:20px;
+}
+
+.card-block{
+	color:#fff;
+}
+
+
+
+
+.card-img-top-1{
+	width:264px ! important;
+	height:264px ! important;
+}
+
+
+.card-img-top-2{
+	width:264px ! important;
+	height:164px ! important;
+}
+
+
+
+[class*="row"] {
+	margin-bottom: 4rem;
+  justify-content: center;
+}
+
+[class*="col-"] {
+	background: #efefef;
+	border: 1px solid #ddd;
+	padding-top: .75rem;
+	padding-bottom: .75rem;
+	width: 100%;
+	
+}
+													/*********** Sponsor CSS END ********************/
+													
+													
+													
